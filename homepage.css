@@ -1,0 +1,190 @@
+*{
+    margin:0; padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: max(18px, 3vmin); 
+    overflow:hidden;
+ }
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+.menu ul a
+{       
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    
+}
+
+.menu ul a li
+{
+    width: 50vw;
+    margin-bottom: 3vh;
+}
+
+
+
+.menu
+{
+    list-style:none;  
+    position:fixed;
+    display:flex;
+
+                
+    top: 33%;
+    left:75%;    
+    transform: translate(-50%, 0%);
+    text-align: center; 
+            
+}
+
+#game
+{
+    color:brown;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color:  rgb(255, 204, 77);
+    padding: 15px 25px;  
+    
+   
+}
+
+
+
+.textoLateral div
+{    
+   width: 50vw;   
+   padding-bottom: 100vh;
+   background-color: brown;
+   color:white;
+}
+
+
+
+.textoLateral h1
+{
+    text-align: center;    
+    margin-bottom: 10vh;
+}
+
+.textoLateral h2
+{
+    font-weight: lighter;
+}
+
+.textoLateral h3
+{
+    margin-top: 13vh;    
+}
+
+.textoLateral h4
+{
+    text-align:justify;
+    font-weight: normal;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.textoLateral p
+{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+
+}
+#linkedin
+{
+    width: 10vw;
+    width: 100px;
+}
+
+
+
+div
+{
+    text-align: center;
+}
+  
+  
+.greek:hover
+{
+        border-style: groove;        
+        border-color: rgb(214, 214, 214);
+}
+
+.greek
+
+{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    border-radius: 100%;
+
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: auto;  
+}
+
+
+
+   
+
+    @media screen and (min-height: 400px)
+    {
+        
+            .greek
+
+            {
+            position: fixed;
+            top: 33%;
+            left:75%;
+            border-radius: 100%;
+
+            transform: translate(-50%,-25%);
+            width: 100px;
+            height: auto;  
+            }
+
+            .menu
+            {           
+                
+                top: 50%;
+                left:75%;    
+                text-align: center;
+            
+            }
+   
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
